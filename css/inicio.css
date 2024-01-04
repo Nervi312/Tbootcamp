@@ -1,0 +1,173 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+
+
+/* css header */
+header {
+ background-color: #da63a2;
+}
+
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    font-weight: bold;
+} 
+
+h1 {
+    color: #fff;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff0808;
+}
+
+
+/* css para body */
+.portada {
+    align-content: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+body {
+    background-color: #333;
+}
+.botones {
+    width: 100vw;
+    height: 50px;
+    background-color:#ADFDF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.botones #img1 {
+    margin: 10px;
+    background: rgb(207, 6, 23);
+    color: #fff;
+}
+
+.botones #img2 {
+    margin: 10px;
+    background: rgb(6, 147, 207);
+    color: #fff;
+}
+
+.botones #img3 {
+    margin: 10px;
+    background: #579902;
+    color: #fff;
+} 
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Contnedor-main1 {
+    background-color: #ADFDF8;
+    
+}
+
+
+.main-container{
+	background: #F9FFF2;
+	padding-top: 70px;
+	padding-bottom: 21px;
+	overflow:auto;
+}
+.noticia{
+    padding: 30px;
+	width:30%;
+	margin-left:3%;
+	text-align:center;
+	float:left;
+}
+
+#n1 {
+    background-color: #E9FFCC;
+}
+
+#n2 {
+    background-color: #E9FFCC;
+}
+#n3 {
+    background-color: #E9FFCC;
+}
+
+img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+p {
+	text-align: justify;
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* css para footer */
+
+footer {
+    background-color: #819CFF;
+    display: flex;
+    justify-content: space-around;
+    
+}
+span {
+    padding-top: 60px;
+    color: #fff;
+}
+
+form {
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
